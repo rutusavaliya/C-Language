@@ -7,9 +7,9 @@ class bat
     char bname[20];
     int innings,notout,runs;
     float batavg;
-    float calcavg;
+    float calcavg()
     {
-        return =runs/(innings-notout);
+        return runs/(innings-notout);
     }
 
    public:
@@ -26,7 +26,7 @@ class bat
      cout<<" enter runs:";
      cin>>runs;
 
-     batavg= calcavg()
+     batavg= calcavg();
    }
    void displaydata()
    {
@@ -35,7 +35,7 @@ class bat
          cout<<"innings:"<<innings<<endl;
          cout<<"notout:"<<notout<<endl;
          cout<<"runs:"<<runs<<endl;
-         cout<<"calcavg:"<<calcavg<<endl;
+         cout<<"batavg:"<<batavg<<endl;
    }   
 };
 
