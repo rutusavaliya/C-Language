@@ -29,7 +29,7 @@ class test
 
    void DISPTEST()
    {
-    cout<<"testcode:"<<testcode<<endl;
+         cout<<"testcode:"<<testcode<<endl;
          cout<<"description:"<<description<<endl;
          cout<<"nocandidate:"<<nocandidate<<endl;
          cout<<"centerreqd:"<<centerreqd<<endl;
